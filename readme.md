@@ -28,9 +28,6 @@ Now run `pytest` in terminal.
 
 When you first start you will see every test is failing. Your goal is to pass every test with the instructions below. Happy coding!
 
-# Secret Tests
-
-There are two test types, local tests and remote secret tests. Running pytest will show you your progress on all of the local tests, however you must upload you code (using the instructions in this readme) to verify you are passing the secret tests. Again you can get a 100 running pytest locally but this does not always translate to a 100 for the assignment. Check your remote remote for your actual score. 
 
 # Explaining What is going on
 
@@ -127,7 +124,7 @@ Modify file_we_want_to_grade.py
 
 You want to grade file_we_want_to_grade.py
 
-`git add -A`
+`git add <files>`
 
 `git commit -m "new: some comment about implementation"`
 
@@ -140,42 +137,6 @@ file_we_want_to_grade.py is then graded
 The https:// link you clone, put that in your browser.
 
 Click on the red x or green check mark to see what tests you are failing (or if you passed all the tests!)
-
-
-# Using VS Code UI to submit
-
-*I recommend using terminal as is is less complex than finding buttons to press, but here is a guide on how to use VSCode to send the same commands*
-
-Make a change to your homework file.
-
-*Make sure all your files are saved*
-
-1. Click on the "Source Control" icon on the left
-
-![click on the source control icon](https://user-images.githubusercontent.com/65638400/192014627-2a370104-63b9-48d7-860b-d94b14c7997b.png)
-
-2. Under the "Changes" section, press the + button next to the hw file. 
-
-![click stage changes](https://user-images.githubusercontent.com/65638400/192014789-9ad2947c-dabf-4f7e-9fd3-35c5badfcc26.png)
-
-
-3. Then type a short message about your homework in the "Message" box under the "Source Control" section. 
-
-![add commit message](https://user-images.githubusercontent.com/65638400/192014814-ce341536-c8d0-41d4-a1d3-dc6a98318896.png)
-
-4. Hit the commit button! 
-
-![commit the file and message](https://user-images.githubusercontent.com/65638400/192014867-72fb4225-39c5-46f1-bdfc-586b7ba0d8d1.png)
-
-5. Now open the Commits Section and the most recent commit. You should see the file you committed there. 
-
-![commited and moved to commit section](https://user-images.githubusercontent.com/65638400/192014921-0170e62b-1341-4c4b-8fe1-900803b6ad2a.png)
-
-6. Next click on the "..." in the Source Control *section* (not window). Go to step 7
-
-7. Click Push. 
-
-![image](https://user-images.githubusercontent.com/65638400/192015256-ab089720-31c5-4d76-9ab4-7885cdad9a32.png)
 
 
 You have submitted your homework! You will want to do these steps every time you make a change to your homework.
